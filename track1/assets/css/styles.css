@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+}
+
+footer { 
+    font-size: 25px;
+    position: fixed;
+    bottom: 0px;
+}
+
+img{
+    width: 100%;
+    position: fixed;
+    opacity: 0.55;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate (-50%, -50%);
+    font-size: 20px;
+}
