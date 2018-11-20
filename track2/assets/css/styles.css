@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     text-align:center;
+    background-color: antiquewhite
 }
 
 footer { 
@@ -9,22 +10,73 @@ footer {
     bottom: 0px;
 }
 
+
 #cf {
-    position:relative;
-    height:281px;
-    width:450px;
-    margin:0 auto;
+    position:fixed;
+    bottom: 5px;
+    right: 5px;
   }
   
   #cf img {
+    height: 460px;
     position:absolute;
-    left:0;
+    right: 5px;
+    bottom: 70px;
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -o-transition: opacity 1s ease-in-out;
     transition: opacity 1s ease-in-out;
   }
   
-  #cf img.top:hover {
+  #cf img.na1:hover {
     opacity:0;
+  }
+  
+  #cf2 {
+    position:fixed;
+    bottom: 5px;
+    right: 5px;
+  }
+  
+  #cf2 img {
+    height: 460px;
+    position:absolute;
+    right: 470px;
+    bottom: 70px;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  #cf2 img.na5:hover {
+    opacity:0;
+  }
+  
+  #cf3 {
+    position:fixed;
+    bottom: 5px;
+    right: 5px;
+  }
+  
+  #cf3 img {
+    height: 460px;
+    position:absolute;
+    right: 935px;
+    bottom: 70px;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  #cf3 img.na5:hover {
+    opacity:0;
+  }
+
+  .text{
+      font-size: 60px;
+      text-align: right;
+      font-family: 'Playfair Display SC', serif;
+      right: 5px;
   }
