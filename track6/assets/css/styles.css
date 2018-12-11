@@ -1,0 +1,124 @@
+
+
+body {
+    margin: 0;
+}
+
+.back{
+    width:50px;
+    position: fixed;
+    margin: 0px;
+    bottom: 5px;
+    left:5px;
+  }
+  
+.next{
+    width:80px;
+    position: fixed;
+    margin: 0px;
+    bottom: 5px;
+    right:5px;
+  }
+  
+.bunchcrop{
+    width: 600px;
+    position: relative;
+    margin: 0px;
+}
+
+.oneolive{
+    width: 200px;
+    position: relative;
+    margin: 0px;
+    top: 200px;
+    left: 400px;
+    -ms-transform: skewY(20deg);
+    -webkit-transform: skewY(20deg);
+    transform: skewY(20deg);
+}
+
+.twoolive{
+    width: 200px;
+    position: relative;
+    margin: 0px;
+    top: 800px;
+    left: 200px;
+    -ms-transform: rotate(140deg); /* IE 9 */
+    -webkit-transform: rotate(140deg); /* Safari 3-8 */
+    transform: rotate(140deg);
+}
+
+.three{
+    width: 200px;
+    position: relative;
+    margin: 0px;
+    top: 1200px;
+    left: 600px;
+    -ms-transform: rotate(300deg); /* IE 9 */
+    -webkit-transform: rotate(300deg); /* Safari 3-8 */
+    transform: rotate(300deg);
+}
+
+.four{
+    width: 200px;
+    position: relative;
+    margin: 0px;
+    top: 1200px;
+    left: 1050px;
+}
+
+.five{
+    width: 200px;
+    position: absolute;
+    margin: 0px;
+    top: 2300px;
+    left: 1150px;
+    -ms-transform: rotate(50deg); /* IE 9 */
+    -webkit-transform: rotate(50deg); /* Safari 3-8 */
+    transform: rotate(50deg);
+}
+
+.six{
+    width: 200px;
+    position: absolute;
+    margin: 0px;
+    top: 2350px;
+    left: 1250px;
+    -ms-transform: rotate(150deg); /* IE 9 */
+    -webkit-transform: rotate(150deg); /* Safari 3-8 */
+    transform: rotate(150deg);
+}
+
+.seven{
+    width: 200px;
+    position: absolute;
+    margin: 0px;
+    top: 2355px;
+    left: 1200px;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari 3-8 */
+    transform: rotate(20deg);
+}
+
+.eight{
+    width: 200px;
+    position: absolute;
+    margin: 0px;
+    top: 2359px;
+    left: 1200px;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari 3-8 */
+    transform: rotate(20deg);
+}
+
+
+.eleven{
+    width: 200px;
+    position: absolute;
+    margin: 0px;
+    top: 2360px;
+    left: 1220px;
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari 3-8 */
+    transform: rotate(180deg);
+}

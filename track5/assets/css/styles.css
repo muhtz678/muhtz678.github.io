@@ -1,5 +1,59 @@
-footer { 
-    font-size: 25px;
+.back{
+    width:50px;
     position: fixed;
-    bottom: 0px;
+    margin: 0px;
+    bottom: 5px;
+    left:5px;
+  }
+  
+.next{
+    width:80px;
+    position: fixed;
+    margin: 0px;
+    bottom: 5px;
+    right:5px;
+  }
+  
+#draw{
+    background-color: burlywood;
+    position: relative;
+    top: 0px; 
+    z-index: -1;
 }
+div.title{
+    height:40px;
+    position: absolute;
+    top: 3px;
+    right:3px;
+    z-index: 1;
+
+}
+.head{
+    font-family: Playfair Display SC;
+    color: saddlebrown;
+    font-size: 25px;
+}
+
+.input{
+    height:20px;
+    width: 80px;
+    position: absolute;
+    top:3px;
+}
+
+a:link {
+    color:saddlebrown;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: saddlebrown;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: antiquewhite;
+    background-color: transparent;
+    text-decoration: none;
+
+

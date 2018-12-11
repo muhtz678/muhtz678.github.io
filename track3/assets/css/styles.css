@@ -1,34 +1,109 @@
 *{
-    margin:0px
+    margin:0px;
+    background-color: rgb(207, 196, 190);
 }
 
-footer { 
-    font-size: 25px;
+
+.i{
+width:0px;
+font-size: 70px;
+font-family:"Playfair Display SC";
+position: absolute;
+top: 450px;
+left: 120px;
+z-index: 1;
+color:  rgb(155, 153, 117);
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s; 
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+  
+  @-webkit-keyframes example {
+    from {color: rgb(155, 153, 117)}
+    to {color: antiquewhite;}
+  }
+  
+  /* Standard syntax */
+  @keyframes example {
+    from {color: rgb(155, 153, 117);}
+    to {color: antiquewhite;}
+}
+
+
+.belong{
+    width: 0px;
+background-color: transparent;
+font-size: 70px;
+font-family:"Playfair Display SC";
+position: absolute;
+top: 1050px;
+left: 620px;
+z-index: 1;
+color:  rgb(155, 153, 117);
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s; 
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+  
+  @-webkit-keyframes example {
+    from {color: rgb(155, 153, 117)}
+    to {color: antiquewhite;}
+  }
+  
+  /* Standard syntax */
+  @keyframes example {
+    from {color: rgb(155, 153, 117);}
+    to {color: antiquewhite;}
+}
+
+.there{
+width: 0px;
+font-size: 70px;
+font-family:"Playfair Display SC";
+position: absolute;
+top: 1650px;
+left: 1120px;
+z-index: 1;
+    color:  rgb(155, 153, 117);
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s; 
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+  
+  @-webkit-keyframes example {
+    from {color: rgb(155, 153, 117)}
+    to {color: antiquewhite;}
+  }
+  
+  /* Standard syntax */
+  @keyframes example {
+    from {color: rgb(155, 153, 117);}
+    to {color: antiquewhite;}
+  }
+
+
+
+  .back{
+    width:50px;
     position: fixed;
-    bottom: 0px;
-}
-
-body{
-    background-color: antiquewhite
-}
-
-.big {
-    font-size: 150px;
-    font-family: 'Playfair Display SC', serif;
-}
-
-div.bigtext {
-    line-height: 152px;
-}
-
-a.track{
-    color: burlywood
-}
-
-a:link {
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-}
+    margin: 0px;
+    bottom: 5px;
+    left:5px;
+  }
+  
+  .next{
+    width:80px;
+    position: fixed;
+    margin: 0px;
+    bottom: 5px;
+    right:5px;
+  }

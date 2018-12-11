@@ -1,0 +1,50 @@
+body {
+    background: rgb(155, 153, 117);
+}
+.back{
+    width:50px;
+    position: fixed;
+    margin: 0px;
+    bottom: 5px;
+    left:5px;
+  }
+  
+.next{
+    width:80px;
+    position: fixed;
+    margin: 0px;
+    bottom: 5px;
+    right:5px;
+  }
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size:25px;
+    color:white;
+    font-family: "Playfair Display SC", serif;
+}
+
+.bg {
+    width: 820px;
+    height: 820px;
+    -webkit-animation:spin 9s linear infinite;
+    -moz-animation:spin 9s linear infinite;
+    animation:spin 9s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.container {
+    width: 820px;
+    height: 820px;
+    position: fixed;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    
